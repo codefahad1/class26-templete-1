@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6rem;
+    color: #515460;
+    font-weight: 500;
+    padding: 15px 0px;
+}
+
+
+
+
+.header h5 {
+    font-size: 16px;
+    padding: 15px 0;
+    color: #adbaf5;
+}
+.header h1 {
+    width: 75%;
+    line-height: 50px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.header h1::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    background: #adbaf5;
+    height: 2%;
+    width: 20%;
+}
+.image:nth-child(1) {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.header .image .header-client {
+    box-shadow: 0px 0px 4px -2px;
+    height: 119px;
+}
+.header .image .header-client img {
+    margin-top: 10px;
+    
+}
+
+/* blog  */
+
+.blog h5{
+    font-size: 16px;
+    padding: 15px 0;
+    color: #adbaf5;
+}
+.blog h1{
+    width: 75%;
+    line-height: 50px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: auto;
+}
+.blog h1::before {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 44%;
+    right: 0;
+    background: #adbaf5;
+    height: 2%;
+    width: 11%;
+}
+
+
+/* blog body  */
+.blog-body{}
+.blog-body .img{
+    position: relative;
+    
+}
+.blog-body .img img {
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+.sub-img {
+    position: absolute;
+    bottom: 17px;
+    right: 94px;
+    background: blue;
+    border-radius: 30px;
+}
+.blog-body .img .sub-img a {
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+.blog-body .img .sub-img a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 6px;
+}
+span {
+    padding-right: 11px;
+}
+.blog-body-contain.pt-5 {
+    width: 330px;
+    margin: auto;
+}
+.blog-sub-body.d-flex {
+    justify-content: center;
+}
+
+
+.footer p.text-light {
+    margin: 0;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.footer li {
+    padding: 0 16px;
+    list-style: none;
+}
+.footer ul li a i{
+    color: white;
+}
+
+
+.footer .footer-title h3 {
+    color: white;
+    font-size: 22px;
+    position: relative;
+    padding-left: 15px;
+}
+.footer .footer-title h3::before {
+    content: " ";
+    position: absolute;
+    top: 3px;
+    bottom: 0;
+    left: 0;
+    height: 90%;
+    width: 2px;
+    background: #2b72dd;
+}
+
+.footer-service ul{
+    padding: 0;
+    padding-top: 15px;
+}
+.footer-service ul li{
+    list-style: none;
+    padding: 0;
+}
+.footer-service ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 36px;
+    font-weight: 200;
+}
